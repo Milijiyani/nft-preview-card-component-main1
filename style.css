@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  --Very-dark-blue: hsl(217, 54%, 11%);
+  --Very-dark-blue: hsl(216, 50%, 16%);
+  --Very-dark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+
+  --font-family-1: 'Outfit', sans-serif;
+ 
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: var(--font-family-1);
+  background-color: hsl(217, 54%, 11%)
+}
+.box{
+background-color: hsl(216, 50%, 16%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading{
+  color:var(--Cyan);
+  cursor:pointer;
+}
+.heading:hover{
+  color:var(--White);
+}
+.info{
+  color:var(--Soft-blue);
+}
+.one{
+  color:var(--Cyan);
+}
+.time{
+  color: var(--Soft-blue);
+}
+.footer{
+  color:var(--Soft-blue);
+}
+
+.name{
+  color:var(--Cyan);
+  cursor:pointer;
+}
+.name:hover{
+  color:var(--White);
+}
+.icon{
+  background-color:var(--Cyan); 
+  cursor:pointer;
+}
+.picture:hover .icon{
+  visibility:visible;
+}
+.hr hr{
+  background-color:hsl(216, 50%, 16%);
+}
+.avtar img{
+  border:1px  solid white;
+  
+}
